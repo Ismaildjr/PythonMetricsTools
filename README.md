@@ -31,7 +31,7 @@ AnalyzeFolder is a script that uses Radon to analyze all Python files in the sam
 
 1. Navigate to the repository directory:
     ```sh
-    cd AnalyzeFolder
+    cd PythonMetricsTools
     ```
 
 2. Run the batch script to analyze Python files:
