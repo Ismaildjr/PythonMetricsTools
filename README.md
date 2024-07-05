@@ -36,7 +36,7 @@ AnalyzeFolder is a script that uses Radon to analyze all Python files in the sam
 
 2. Run the batch script to analyze Python files:
     ```sh
-    analyze_python_files.bat
+    analyze_folder.bat
     ```
 
     The script will output the raw metrics, cyclomatic complexity, and maintainability index for each Python file in the current directory and its subfolders.
@@ -44,4 +44,27 @@ AnalyzeFolder is a script that uses Radon to analyze all Python files in the sam
 ## Example
 
 Here's an example of the output you can expect from running the script:
+Raw Metrics:
+File: mn.py
+mn.py
+    LOC: 27
+    LLOC: 21
+    SLOC: 21
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 6
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+
+Cyclomatic Complexity:
+File: mn.py
+mn.py
+    F 7:0 calculate_maintainability_index - A
+
+Maintainability Index:
+File: mn.py
+mn.py -
 
