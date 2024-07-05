@@ -44,27 +44,48 @@ AnalyzeFolder is a script that uses Radon to analyze all Python files in the sam
 ## Example
 
 Here's an example of the output you can expect from running the script:
-Raw Metrics:
+
+### Raw Metrics
 File: mn.py
+
 mn.py
-    LOC: 27
-    LLOC: 21
-    SLOC: 21
-    Comments: 0
-    Single comments: 0
-    Multi: 0
-    Blank: 6
-    - Comment Stats
-        (C % L): 0%
-        (C % S): 0%
-        (C + M % L): 0%
 
-Cyclomatic Complexity:
+LOC: 27
+
+LLOC: 21
+
+SLOC: 21
+
+Comments: 0
+
+Single comments: 0
+
+Multi: 0
+
+Blank: 6
+
+
+ - Comment Stats
+
+   (C % L): 0%
+
+   (C % S): 0%
+
+   (C + M % L): 0%
+
+
+### Cyclomatic Complexity
+
 File: mn.py
+
 mn.py
-    F 7:0 calculate_maintainability_index - A
 
-Maintainability Index:
+$\color{purple}{F}$ 7:0 calculate_maintainability_index - $\color{green}{A}$
+
+
+
+### Maintainability Index
+
 File: mn.py
-mn.py -
 
+mn.py -  $\color{green}{A}$
