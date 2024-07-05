@@ -24,7 +24,7 @@ AnalyzeFolder is a script that uses Radon to analyze all Python files in the sam
 
 2. Clone this repository:
     ```sh
-    git clone https://github.com/your-username/AnalyzeFolder.git
+    git clone https://github.com/Ismaildjr/PythonMetricsTools.git
     ```
 
 ## Usage
